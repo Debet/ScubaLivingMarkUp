@@ -1,64 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Scuba Living - Life beneath the surface</title>
-</head>
-<body>
-    <div class="gridlayout">
-        <header>
-            <section class="logo">
-                <img src="gfx/ScubaLiving_logo.svg" alt="">
-            </section>
-            <nav>
-                <div class="login"></div>
+  </head>
+  <body>
+    <div class="gridlayout"  id="home">
+      <header>
+        <section class="logo">
+          <img src="gfx/ScubaLiving_logo.svg" alt="" />
+        </section>
+        <div class="login">
+            <div class="lock"></div>
+            <div class="locktext">Login</div>
+        </div>
+        <div class="searchbox">
+            <input type="text">
+            <button>Søg</button>
+        </div>
+        <nav>
+          
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Dykkerudstyr</a></li>
+            <li><a href="#travel">Dykkerrejser</a></li>
+            <li><a href="#padi">Dykkerkurser</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Om os</a></li>
+        
+          </ul>
+      </header>
+      <main>
+        <section class="introslider" >
+          <img src="gfx/scuba2.jpg" alt="" />
+          <div class="introslidertext">
+            <h1>The best way to observe a fish is to become a fish.</h1>
+            <h4>JACQUES COUSTEAU</h4>
+          </div>
+        </section>
+        <section class="introshop" id="shop">
+          <div class="introshopheader"><h2>Mest populære Dykkerudstyr</h2></div>
+          <div class="introshopheaderbg"></div>
+          <div class="introshopitem">
+            <img
+              src="gfx/reg.jpg"
+              class="imgshop"
+              alt="regulator"
+              title="Regulator"
+            />
+            <h3>Regulator med resist</h3>
+            <h4>kr. 899,-</h4>
+          </div>
+          <div class="introshopitem">
+            <img src="gfx/fine.jpg" class="imgshop" alt="Finne" title="Finne" />
+            <h3>Rejsefinne</h3>
+            <h4>kr. 999,-</h4>
+          </div>
+          <div class="introshopitem">
+            <img
+              src="gfx/hanske.jpg"
+              class="imgshop"
+              alt="Handsker"
+              title="Handsker"
+            />
+            <h3>Coldwater gloves</h3>
+            <h4>kr. 1499,-</h4>
+          </div>
+          <div class="introshopitem">
+            <img src="gfx/ur.jpg" class="imgshop" alt="Ur" title="ur" />
+            <h3>Håndledscomputer</h3>
+            <h4>kr. 1999,-</h4>
+          </div>
+          
+        </section>
+        <h6><a href="#">SE MERE LÆKKERT UDSTYR HER!</h6></a>
+        <section class="introtravel" id="travel">
+          <div class="introtravelheader"><h2>Dyk ud i verden</h2></div>
+          <div class="introtravelbg"></div>
+          <div class="introtravelitem">
+            <img src="gfx/malta.jpg" class="imgtravel" alt="Ur" title="ur" />
+            <div class="traveltext">
+              <h2>malta</h2>
+              <h5>
+                Oplev skønne malta og det helt fantasike dyreliv og sammenhold.
+                Vi arrangerer dykkerejser til malta hele året rundt.
+              </h5>
+            </div>
+          </div>
+          <div class="introtravelitem">
+            <img src="gfx/norge.JPG" class="imgtravel" alt="Ur" title="ur" />
+            <div class="traveltext">
+              <h2>Norge</h2>
+              <h5>
+                Nordeuropas bedste dykkerspots ligger i Norge. Vi har 25 års
+                erfaring med dyk i Norge. Oplev det klarest vand i verden!
+              </h5>
+            </div>
+          </div>
+        </section>
+        <h6><a href="#">Se flere destinationer og muligheder her!</h6></a>
+        <section class="intropadi" id="padi">
+          <div class="intropadiheader"><h2>PADi - dykkerceritfikat</h2></div>
+          <div class="intropadibg"></div>
+          <div class="intropadiitem">
+            <div class="paditext">
+              <h1>Tag et internationalt anerkendt dykkercertifikat</h1>
+              <p>
+                Her finder du et stort udvalg af dykkerkurser lige fra begynder
+                til professionel. Vi er et af Danmarks førende dykkercentre, som
+                uddanner fra PADI organisationen. Når du vælger at tage et
+                dykkercertifikat hos os, får du ikke kun et internationalt anerkendt dykkercertifikat til markedets bedste priser, du får
+                også et dykkerkursus, hvor kvaliteten er i top. 
+                <br><br> Vi har kompetente instruktører på vores dykkerkurser. Erfaring, tillid
+                og sikkerhed er vigtigt, når du dykker med os, derfor står vi
+                klar med et stort hold af kompetente instruktører.
+              </p>
+            </div>
+            <img src="gfx/PADI.svg" class="imgclass2" alt="Ur" title="ur" />
+          </div>
+        </section>
+        <h6><a href="#">Se alle kurser og cerifikater her!</h6></a>
+      </main>
+      <footer>
+          <div class="footerinfo">
+              <ul>
+                  <li>Praktiske oplysninger</li>
+                  <li><a href="#">Om Scuba Living</a></li>
+                  <li><a href="#">Kontakt</a></li>
+                  <li><a href="#">Handelsbetingelser</a></li>
+                  <li><a href="#">Persondatapolitik</a></li>
+                  <li><a href="#">Åbningstider</a></li>
+              </ul>
+          </div>
+          <div class="footerinfo">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#shop">Dykkerudstyr</a></li>
-                    <li><a href="#travel">Dykkerrejser</a></li>
-                    <li><a href="#padi">Dykkerkurser</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Om os</a></li>
-                    <li><button class="btnsearch">Søg</button></li>
+                        <li>Praktiske oplysninger</li>
+                        <li><a href="#">Hovedkategorier</a></li>
+                        <li><a href="#">Dykkerudstyr</a></li>
+                        <li><a href="#">Dykkerrejser</a></li>
+                        <li><a href="#">Dykkerkurser</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+          </div>
+          <div class="footerinfo">
+                <ul>
+                        <li>Sociale medier - følg os her:</li>
+                        <li><a href="#">LinkedIn <i class="fa fa-linkedin-square" style="font-size:20px"></i></a></li>
+                        <li><a href="#">Facebook <i class="fa fa-facebook-square" style="font-size:20px"></i></a></li>
+                        <li><a href="#">Instagram <i class="fa fa-instagram" style="font-size:20px"></i></a></li>
+                        
+                    </ul>
+          </div>
 
-                </ul>
-               
-            </nav>
-        </header>
-        <main>
-            <section class="introslider" id="home">
-                <img src="gfx/scuba2.jpg" alt="">
-                <div class="introslidertext">
-                    <h2>The best way to observe a fish is to become a fish.</h2>
-                    <p>JACQUES COUSTEAU</p>
-                </div>
-            </section>
-            <section class="introshop" id="shop">
-                <div class="introshopheader">
-                    <h2>Mest populære Dykkerudstyr</h2>
-                </div>
-                <div class="introshopheaderbg"></div>
-                <div class="introshopitem"></div>
-                <div class="introshopitem"></div>
-                <div class="introshopitem"></div>
-                <div class="introshopitem"></div>
 
-            </section>
-            <section class="introtravel" id="travel">
-                    <div class="introtravelheader">
-                            <h2>Dyk ud i verden</h2>
-                        </div>
-                        <div class="introtravelbg"></div>
-                        <div class="introtravelitem"></div>
-                        <div class="introtravelitem"></div>
-            </section>
-            <section class="intropadi" id="padi"></section>
-
-        </main>
-        <footer></footer>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
