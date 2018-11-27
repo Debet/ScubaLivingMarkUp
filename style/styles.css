@@ -76,22 +76,22 @@ p{
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px auto 200px;
+    grid-template-rows: 40px auto 200px;
     
 }
 header{
  
     position: fixed;
-    display: block;
+    
 width: 100%;
-    background-color: yellow;
+    background-color: white;
 
     grid-column: 1/-1;
     grid-row:1/2;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns: 2fr 4fr 2fr 1fr;
+    grid-template-rows:1fr;
 
 }
 .logo{
@@ -106,21 +106,22 @@ width: 100%;
    
 }
 .logo img{
-    width: 80%; 
+    width: 70%; 
 
     object-fit: cover;
     object-position: top;
 }
 
 nav{
-    grid-column: 3/-1;
-    grid-row:2/-1;
+    grid-column: 2/3;
+    grid-row:1/-1;
+   padding:20px 0px 0px 20px;
 
 }
 nav ul{
     list-style: none;
    
-    padding:30px;
+    
    
 }
 nav ul li{
@@ -145,7 +146,7 @@ nav ul li a:hover{
 grid-column: 3/4;
 grid-row: 1/1;
 
-padding:50px 10px 10px 30px;
+padding:20px 0px 0px 0px;
 
 }
 .searchbox button{
@@ -175,8 +176,7 @@ padding:50px 10px 10px 30px;
 .login{
     grid-column: 4/-1;
     grid-row: 1/1;
-
-    background-color:white;
+    padding:20px 0px 0px 0px;
 
     justify-self: end;
 }
